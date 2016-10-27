@@ -1,0 +1,201 @@
+form#comment-form label {
+  width: 6em;
+  display: inline-block;
+  text-align: right;
+}
+
+form#comment-form input {
+  margin-bottom: 10px;
+}
+
+form#comment-form input#comment-submit {
+  text-align: right;
+}
+
+form#comment-form textarea {
+  display: block;
+}
+
+p.toggle {
+  background-color: #edece6;
+  border: 1px solid #d9d8d1;
+  float: right;
+  font-size: 1em;
+  margin-top: 0;
+}
+
+p.toggle:hover {
+  background-color: #c9c8c1;
+}
+
+p.toggle a {
+  display: block;
+  width: 100%;
+  padding: 0.2em 1em;
+}
+
+blockquote.rendered {
+  margin-left: 1em;
+  line-height: 120%;
+  font-size: 16px;
+}
+
+blockquote.rendered h2,
+blockquote.rendered p {
+  margin-left: 0;
+}
+
+blockquote.rendered a.environment-identification {
+  color: black;
+  font-weight: bold;
+  font-style: normal;
+  text-decoration: none;
+}
+
+blockquote.rendered a.environment-identification span.named {
+  font-weight: normal;
+}
+
+blockquote.rendered a.environment-identification:hover {
+  text-decoration: underline;
+}
+
+blockquote.rendered div.definition {
+}
+
+blockquote.rendered div.plain {
+  font-style: italic;
+}
+
+blockquote.rendered div.remark {
+}
+
+blockquote.rendered span.qed {
+  float: right;
+}
+
+blockquote.rendered ol {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 20px;
+}
+
+blockquote.rendered ol {
+  counter-reset: firstList;
+}
+
+blockquote.rendered ol ol {
+  counter-reset: secondList;
+}
+
+blockquote.rendered ol > li:before {
+  counter-increment: firstList;
+  content: "(" counter(firstList) ") ";
+  margin-right: 15px;
+}
+
+blockquote.rendered ol ol > li:before {
+  counter-increment: secondList;
+  content: "(" counter(secondList, lower-alpha) ") ";
+}
+
+blockquote.rendered li.custom:before {
+  content: "";
+  margin-right: 0;
+}
+
+ul#citation-options {
+}
+
+ul#citation-options li {
+  background-image: url('../images/clipboard.png');
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+ul#citation-options li a {
+  display: block;
+}
+
+a#graph-link {
+  display: table;
+}
+
+a#graph-link img {
+  width: 75px;
+}
+
+a#graph-link span {
+  padding-left: 1em;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+ul#using {
+}
+
+ul#using li {
+  margin-bottom: .5em;
+}
+
+h2.more a {
+  font-weight: normal;
+  text-decoration: underline;
+  color: #0000cc;
+}
+
+h2.more a:hover, h2.more a:visited, h2.more a:active {
+  color: #880000;
+  cursor: pointer;
+}
+
+div#references ol#citations {
+  display: none;
+}
+
+div.footnotes {
+  font-size: 80%;
+}
+
+div#main p#slogan {
+  padding: .3em;
+  margin-left: 1em;
+}
+
+div#main p#slogan strong {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+div#main p#slogan:before {
+  content: "Slogan:";
+  font-weight: bold;
+  margin-right: .3em;
+  /*background-color: #edece6;*/
+}
+
+table.history {
+  counter-reset: row;
+}
+
+table.history tr td {
+  padding: .2em;
+}
+
+table.history tbody tr {
+  counter-increment: row;
+}
+
+table.history tbody tr td:first-child::before {
+  content: counter(row) ". ";
+  margin-right: .2em;
+}
+
+table.history thead th {
+  background-color: white;
+  text-align: center;
+}
+
+var.tag {
+  font-family: "Inconsolata", monospace;
+}
