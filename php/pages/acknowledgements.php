@@ -45,7 +45,7 @@ class AcknowledgementsPage extends Page {
 
     $output .= "<h2>Supporting institutions for the Automorphic Project</h2>";
     $output .= "<div style='text-align: center'>";
-    $output .= "<a href='http://ncas.newark.rutgers.edu'><img style='margin-bottom: 30px' src='" . href("images/logos/RU-NCAS.jpg") . "'></a>";
+    $output .= "<a href='http://ncas.newark.rutgers.edu'><img style='margin-bottom: 30px' src='" . href("images/logos/RU-NCAS.gif") . "'></a>";
     $output .= "<a href='http://nsf.gov'><img width='180' src='" . href("images/logos/nsf.gif") . "'></a>";
     $output .= "</div>";
     $output .= "<h2>Supporting institutions for the Stacks Project</h2>";
