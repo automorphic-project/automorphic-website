@@ -9,7 +9,7 @@ class AcknowledgementsPage extends Page {
     $output = "";
 
     $output .= "<h2>Acknowledgements</h2>";
-    $output .= "<p>The website underlying the Automorphic project has been shamelessly copied from the Stacks project. We are very grateful to Johan de Jong and Pieter Belmans for allowing us to use their work, and for helpful instructions.";
+    $output .= "<p>The website underlying the Automorphic Project has been shamelessly copied from the Stacks Project. We are very grateful to Johan de Jong and Pieter Belmans for allowing us to use their work, and for helpful instructions.";
 //What you see here is the current status of the file <a href='https://github.com/automorphic-project/automorphic-project/tree/master/documentation'><var>documentation/support</var></a> in the project. The intent is to list support from institutions that have made the Stacks project possible. If you have participated in the Stacks project and wish to acknowledge support, please contact <a href='mailto:automorphic.project@gmail.com'>automorphic.project@gmail.com</a> and we will add it here.";
 //    $file = file_get_contents($config["project"] . "/documentation/support");
 //    $items = explode("\n\n\n", $file);
@@ -43,7 +43,12 @@ class AcknowledgementsPage extends Page {
   public function getSidebar() {
     $output = "";
 
-    $output .= "<h2>Supporting institutions</h2>";
+    $output .= "<h2>Supporting institutions for the Automorphic Project</h2>";
+    $output .= "<div style='text-align: center'>";
+    $output .= "<a href='http://ncas.newark.rutgers.edu'><img style='margin-bottom: 30px' src='" . href("images/logos/RU-NCAS.jpg") . "'></a>";
+    $output .= "<a href='http://nsf.gov'><img width='180' src='" . href("images/logos/nsf.gif") . "'></a>";
+    $output .= "</div>";
+    $output .= "<h2>Supporting institutions for the Stacks Project</h2>";
     $output .= "<div style='text-align: center'>";
     $output .= "<a href='http://simonsfoundation.org'><img style='margin-bottom: 30px; margin-top: 10px' width='180' src='" . href("images/logos/simons.png") . "'></a>";
     $output .= "<a href='http://columbia.edu'><img style='margin-bottom: 30px' src='" . href("images/logos/columbia.jpg") . "'></a>";

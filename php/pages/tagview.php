@@ -387,10 +387,10 @@ class TagViewPage extends Page {
     $value .= "<div id='citation-text-more'>";
     $value .= "or one of the following (click to see and copy the code)";
     $value .= "<ul id='citation-options'>";
-    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\cite[\\\\href{http://automorphic.math.columbia.edu/tag/" . $this->tag["tag"] . "}{Tag " . $this->tag["tag"] . "}]{automorphic-project}\")'>[Tag " . $this->tag["tag"] . ", Automorphic]</a>";
-    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\cite[\\\\href{http://automorphic.math.columbia.edu/tag/" . $this->tag["tag"] . "}{" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . "}]{automorphic-project}\")'>[" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . ", Automorphic]</a>";
-    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\href{http://automorphic.math.columbia.edu/tag/" . $this->tag["tag"] . "}{Tag " . $this->tag["tag"] . "}\")'>Tag " . $this->tag["tag"] . "</a>";
-    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\href{http://automorphic.math.columbia.edu/tag/" . $this->tag["tag"] . "}{" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . "}\")'>" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . "</a>";
+    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\cite[\\\\href{http://automorphic.newark.rutgers.edu/tag/" . $this->tag["tag"] . "}{Tag " . $this->tag["tag"] . "}]{automorphic-project}\")'>[Tag " . $this->tag["tag"] . ", Automorphic]</a>";
+    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\cite[\\\\href{http://automorphic.newark.rutgers.edu/tag/" . $this->tag["tag"] . "}{" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . "}]{automorphic-project}\")'>[" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . ", Automorphic]</a>";
+    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\href{http://automorphic.newark.rutgers.edu/tag/" . $this->tag["tag"] . "}{Tag " . $this->tag["tag"] . "}\")'>Tag " . $this->tag["tag"] . "</a>";
+    $value .= "<li><a href='javascript:copyToClipboard(\"\\\\href{http://automorphic.newark.rutgers.edu/tag/" . $this->tag["tag"] . "}{" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . "}\")'>" . ucfirst($this->tag["type"]) . " " . $this->tag["tag"] . "</a>";
     $value .= "</ul>";
     $value .= "<p>For more information, see <a href='" . href("tags") . "'>How to reference tags</a>.</p>";
     $value .= "</div>";

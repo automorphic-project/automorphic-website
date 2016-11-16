@@ -24,11 +24,11 @@ class TagsPage extends Page {
     $value .= "  shorthand    = {Automorphic},\n";
     $value .= "  author       = {The {Automorphic Project Authors}},\n";
     $value .= "  title        = {\itshape Automorphic Project},\n";
-    $value .= "  howpublished = {\url{http://automorphic.math.columbia.edu}},\n";
+    $value .= "  howpublished = {\url{http://automorphic.newark.rutgers.edu}},\n";
     $value .= "  year         = {" . date('Y'). "},\n";
     $value .= "}</code></pre>";
     $value .= "Then you can use the citation code we provide on each tag's page (below the preview) to <em>cite</em> and <em>link</em> the corresponding tag, for example by";
-    $value .= "<pre><code>\cite[\href{http://automorphic.math.columbia.edu/tag/0123}{Tag 0123}]{automorphic-project}</code></pre>";
+    $value .= "<pre><code>\cite[\href{http://automorphic.newark.rutgers.edu/tag/0123}{Tag 0123}]{automorphic-project}</code></pre>";
     $value .= "<p>This can be changed according to your tastes. In order to make the <code>\url</code> and <code>\href</code> commands to work, one should use the <a href='http://ctan.org/pkg/hyperref'><code>hyperref</code></a> package. Some options are provided on the lookup page for a tag.</p>";
 
     $value .= "<h2>Technical information</h2>";

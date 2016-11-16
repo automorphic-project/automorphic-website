@@ -1,6 +1,6 @@
 Description
 -----------
-This is a new version of the website for the [Stacks project](http://automorphic.math.columbia.edu), enabling a comment system, improved tag lookup and a full-powered online view of its contents.
+This is a new version of the website for the [Automorphic project](http://automorphic.newark.rutgers.edu), enabling a comment system, improved tag lookup and a full-powered online view of its contents.
 
 
 Configuration
@@ -23,7 +23,7 @@ Here are the instructions:
 
 3. change directories to `automorphic-website/` and clone the Stacks project into the (not yet existing) `tex/` subdirectory using `git clone git://github.com/automorphic-project/automorphic-project tex`
 
-4. change one occurence of `http://automorphic.math.columbia.edu/tag/` in `automorphic-website/tex/scripts/tag_up.py` to `http://localhost:8080/tag/
+4. change one occurence of `http://automorphic.newark.rutgers.edu/tag/` in `automorphic-website/tex/scripts/tag_up.py` to `http://localhost:8080/tag/
 
 5. run `make tags` in `automorphic-website/tex/`
 

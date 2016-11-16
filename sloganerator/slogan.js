@@ -58,5 +58,5 @@ function toggleRequired() {
 
 function success(tag) {
   // this is a bit hardcoded, sorry
-  $("body").append("<div id='notification'>Thanks for suggesting a slogan to <a href='http://automorphic.math.columbia.edu/tag/" + tag + "'>tag <code>" + tag + "</code></a>!<span id='cross'>[x]</span></div>").click(function() { $("div#notification").hide(); });
+  $("body").append("<div id='notification'>Thanks for suggesting a slogan to <a href='http://automorphic.newark.rutgers.edu/tag/" + tag + "'>tag <code>" + tag + "</code></a>!<span id='cross'>[x]</span></div>").click(function() { $("div#notification").hide(); });
 }

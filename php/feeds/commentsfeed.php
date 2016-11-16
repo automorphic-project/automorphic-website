@@ -7,7 +7,7 @@ require_once("../general.php");
 
 require_once('../markdown/markdown.php');
 
-$domain = 'http://automorphic.math.columbia.edu';
+$domain = 'http://automorphic.newark.rutgers.edu';
 
 // initialize the global database object
 try {
@@ -81,7 +81,7 @@ function whole_page() {
   $output .= "  <link>";
   $output .= $domain . href('comments-feed.rss');
   $output .= "</link>\n";
-  $output .= "  <description>Automorphic project, see http://automorphic.math.columbia.edu</description>\n";
+  $output .= "  <description>Automorphic project, see http://automorphic.newark.rutgers.edu</description>\n";
   $output .= "  <language>en</language>\n";
   $output .= "  <managingEditor>automorphic.project@gmail.com (Automorphic Project)</managingEditor>\n";
   $output .= "  <webMaster>pieterbelmans@gmail.com (Pieter Belmans)</webMaster>\n";
