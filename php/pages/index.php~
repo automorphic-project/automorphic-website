@@ -15,7 +15,7 @@ class IndexPage extends Page {
 
     $value = "";
     $value .= "<h2><a href='" . href("about") . "'>About</a></h2>";
-    $value .= "<p>This is the home page of the Automorphic project. It is intended as an open source textbook and reference work on automorphic forms and the representation theory needed to study them. AT THE MOMENT WE ARE AT THE FIRST STAGES OF CONSTRUCTION, ADAPTING THE SOFTWARE OF THE STACKS PROJECT. PLEASE DO NOT ATTEMPT TO USE THIS WEBSITE TO LEARN ABOUT AUTOMORPHIC FORMS YET. For more general information see our extensive <a href='" . href("about") . "'>about page</a>.</p>";
+    $value .= "<p>This is the home page of the Automorphic project. It is an open source textbook and reference work on automorphic forms and the representation theory needed to study them. For more general information see our extensive <a href='" . href("about") . "'>about page</a>.</p>";
 
     $value .= "<h2><a href='" . href("contribute") . "'>How to contribute?</a></h2>";
 

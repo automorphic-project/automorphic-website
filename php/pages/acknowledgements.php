@@ -9,7 +9,7 @@ class AcknowledgementsPage extends Page {
     $output = "";
 
     $output .= "<h2>Acknowledgements</h2>";
-    $output .= "<p>The website underlying the Automorphic Project has been shamelessly copied from the Stacks Project. We are very grateful to Johan de Jong and Pieter Belmans for allowing us to use their work, and for helpful instructions.";
+    $output .= "<p>The website underlying the Automorphic Project has been shamelessly copied from the Stacks Project. We are very grateful to Johan de Jong and Pieter Belmans for allowing us to use their work, and Pieter Belmans for constant support.";
 //What you see here is the current status of the file <a href='https://github.com/automorphic-project/automorphic-project/tree/master/documentation'><var>documentation/support</var></a> in the project. The intent is to list support from institutions that have made the Stacks project possible. If you have participated in the Stacks project and wish to acknowledge support, please contact <a href='mailto:automorphic.project@gmail.com'>automorphic.project@gmail.com</a> and we will add it here.";
 //    $file = file_get_contents($config["project"] . "/documentation/support");
 //    $items = explode("\n\n\n", $file);

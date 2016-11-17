@@ -21,7 +21,7 @@ class AboutPage extends Page {
     $value .= "<p>There are currently three open source repositories tracking development for the Automorphic project and its website:</p>";
     $value .= "<ol>";
     $value .= "<li>The LaTeX files making up the Automorphic project itself can be found <a href='https://github.com/automorphic-project/automorphic-project'>here</a>.";
-    $value .= "<li>The website has a <a href='https://github.com/automorphic-project/automorphic-website/'> separate repository</a>, based on the <a href='https://github.com/stacks/stacks-website'>Stacks project website</a> which is currently maintained by <a href='http://pbelmans.wordpress.com/'>Pieter Belmans</a>.";
+    $value .= "<li>The website has a <a href='https://github.com/automorphic-project/automorphic-website/'> separate repository</a>, based on the <a href='https://github.com/stacks/stacks-website'>Stacks project website</a>, currently maintained by <a href='http://pbelmans.wordpress.com/'>Pieter Belmans</a>.";
     $value .= "<li>As for the Stacks Project, there is a <a href='https://github.com/automorphic-project/automorphic-tools'>third repository</a> containing tools and infrastructure used by both the project and the website.";
     $value .= "</ol>";
     $value .= "<p>If you have any questions, please do not hesitate to send an email to <a href='mailto:automorphic.project@gmail.com'>automorphic.project@gmail.com</a>.";
