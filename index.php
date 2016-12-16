@@ -35,12 +35,16 @@ require_once("php/pages/todo.php");
 //(automorphic) This has to be adjusted to the chapters of our project
 $parts = array(
   "Introduction"                    => "Preliminaries",
-  "Representation Theory"           => "General Representation Theory",
-  "Algebraic groups and their automorphic quotients" => "Algebraic groups and their automorphic quotients",
+  "Basic representation theory"           => "Basic representation theory",
+  "Lie and algebraic groups, and their homogeneous spaces" => "Lie and algebraic groups, and their homogeneous spaces",
   "Harmonic analysis over local fields"                => "Harmonic analysis over local fields",
-  "Automorphic representations"		      => "Automorphic representations",
-  "Trace formulas"       => "Trace formulas",
-  "Arithmetic"                => "Arithmetic");
+  "Harmonic analysis over global fields"                => "Harmonic analysis over global fields",
+  "Automorphic forms"		      => "Automorphic forms",
+  "Periods, theta correspondence, related methods"		      => "Periods, theta correspondence, related methods",
+  "The trace formula: local aspects"       => "The trace formula: local aspects",
+  "The trace formula: global aspects"       => "The trace formula: global aspects",
+  "Arithmetic, reciprocity, Shimura varieties"                => "Arithmetic, reciprocity, Shimura varieties",
+  "Geometric aspects"                => "Geometric aspects");
 
 // we try to construct the page object
 try {

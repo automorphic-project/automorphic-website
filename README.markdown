@@ -40,7 +40,7 @@ Here are the instructions:
 This will create a directory with the database in it with the correct permissions for the webserver. To set permissions for the cache correctly execute
 
         chmod 0777 automorphic-website/php/cache
-9. change directory into automorphic-website and edit the file `conf.ini` setting database = "database/automorphic.sqlite", directory = "", and project = "/path/to/base/automorphic-website/tex"
+9. change directory into automorphic-website and edit the file `config.ini` setting database = "database/automorphic.sqlite", directory = "", and project = "/path/to/base/automorphic-website/tex"
 
 10. sanity check: at this point if you point your browser to `http://localhost:8080` you should not get an error concerning the database
 
