@@ -240,7 +240,9 @@ catch(PDOException $e) {
     <link rel='icon' type='image/vnd.microsoft.icon' href='<?php print href("automorphic.ico"); ?>'> 
     <link rel='shortcut icon' type='image/vnd.microsoft.icon' href='<?php print href("automorphic.ico"); ?>'> 
     <meta charset='utf-8'>
-
+    <!-- <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+    -->
+    <script src="js/jquery-1.7.2.min.js"></script>
     <?php print $head; ?>
   </head>
 

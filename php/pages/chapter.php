@@ -7,7 +7,7 @@ require_once("php/sections.php");
 function printToCitem($tag) {
   $value = "";
 
-  $value .= "<li><a title='" . $tag["label"] . "' href='" . href("tag/" . $tag["tag"]) . "'>Tag <var>" . $tag["tag"] . "</var></a> points to " . ucfirst($tag["type"]) . " " . $tag["book_id"];
+  $value .= "<li><a title='" . $tag["label"] . "' href='" . href("tag/" . $tag["tag"]) . "'>Tag <var class='tag'>" . $tag["tag"] . "</var></a> points to " . ucfirst($tag["type"]) . " " . $tag["book_id"];
   // in these cases we can print a name
   if (($tag["type"] == "section" or $tag["type"] == "subsection") or (!in_array($tag["type"], array("item", "equation")) and !empty($tag["name"])))
     $value .= ": " . parseAccents($tag["name"]);

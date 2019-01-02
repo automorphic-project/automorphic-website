@@ -3,7 +3,7 @@
 
 body {
   font-family: "Droid Sans", Arial, sans-serif;
-  border: solid #d9d8d1;
+  border: solid #6699CC;
   border-width: 1px;
   margin: .5em auto;
   margin-bottom: 4em;
@@ -23,11 +23,11 @@ h1 {
   padding: .2em;
   font-size: 1.35em;
   font-weight: bold;
-  background-color: #d9d8d1;
+  background-color: #6699CC;
 }
 
 h1:hover {
-  background-color: #c9c8c1;
+  background-color: #CCFFFF;
 }
 
 h1 a {
@@ -76,7 +76,7 @@ hr {
 }
 
 form {
-  border-top: 1px solid #d9d8d1;
+  border-top: 1px solid #6699CC;
   padding: 10px;
 }
 
@@ -160,11 +160,11 @@ p#slogans-disclaimer {
 }
 
 p#footer {
-  background-color: #eee;
+  background-color: #6699cc;
   padding: 6px 8px;
   margin: 0;
   margin-top: 1em;
-  border-top: 1px solid #d9d8d1;
+  border-top: 1px solid #6699CC;
   font-size: .8em;
 }
 

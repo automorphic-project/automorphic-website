@@ -97,7 +97,7 @@ function printSlogans($slogans, $existing) {
   print "<h2 id='slogans-title'>Existing slogans for this tag</h2>";
   print "<div id='existing'>";
   if ($existing != "") {
-    print "<p>There is already a slogan in use for this tag in the Stacks project:";
+    print "<p>There is already a slogan in use for this tag in the Automorphic project:";
     print "<blockquote>" . $existing;
   }
   
@@ -126,8 +126,10 @@ function printStatement($tag) {
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
-  <title>The Stacks project sloganerator: design mockup</title>
+ <?php //Just changed the stacks prject to automorphic project ?>
+  <title>The Automorphic project sloganerator: design mockup</title>
+  <link rel='icon' type='image/vnd.microsoft.icon' href='/automorphic.ico'> 
+  <link rel='shortcut icon' type='image/vnd.microsoft.icon' href='/automorphic.ico'> 
   <link rel="stylesheet" type="text/css" href="<?php print href("css/tag.css"); ?>">
   <link rel="stylesheet" type="text/css" href="<?php print href("slogans/style.css"); ?>">
 
@@ -145,7 +147,7 @@ function printStatement($tag) {
 
 <body>
 
-<h1><a href="<?php print href(""); ?>">The Stacks project sloganerator</a></h1>
+<h1><a href="<?php print href(""); ?>">The Automorphic project sloganerator</a></h1>
 
 <?php
 
@@ -156,7 +158,7 @@ if (!isValidTag($tag)) {
   printError($message);
 }
 elseif (!tagExists($tag)) {
-  $message = "The tag that was requested (<code>" . $tag . "</code>) does not exist in the Stacks project. You can request a new tag.";
+  $message = "The tag that was requested (<code>" . $tag . "</code>) does not exist in the Automorphic project. You can request a new tag.";
   printError($message);
 }
 else {
