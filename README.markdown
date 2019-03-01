@@ -32,7 +32,7 @@ Below you will find rough instructions to create a local copy of the Stacks proj
 
 5. run `make tags` in `automorphic-website/tex/`
 
-6. clone `automorphic-tonols` in the `base` directory using `git clone https://github.com/automorphic-project/automorphic-tools`
+6. clone `automorphic-tools` in the `base` directory using `git clone https://github.com/automorphic-project/automorphic-tools`
 
 7. change directories to `automorphic-tools` and create the database by calling `python create.py`
 
