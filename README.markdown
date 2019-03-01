@@ -1,10 +1,8 @@
-Description
------------
+## Description
 This is a new version of the website for the [Automorphic project](http://automorphic.newark.rutgers.edu), enabling a comment system, improved tag lookup and a full-powered online view of its contents.
 
 
-Configuration
--------------
+## Configuration
 
 Below you will find rough instructions to create a local copy of the Stacks project website on your system. Requirements:
 
@@ -20,9 +18,10 @@ Below you will find rough instructions to create a local copy of the Stacks proj
 5. a directory `base`
 6. the url `http://localhost:8080` points to `base/automorphic-website`
    1. You may add a VirtualHost block in the `.conf` file and add port `8080` to `Listen`.
-   2. [id-12]: Allow mod-rewrite to redirect the address by editing `/etc/apache2/apache2.conf` (this file locates at `ORACLE_HOME\Apache\Apache\conf\httpd.conf` on Windows), under the host directory of automorphic-website, change `AllowOverride All` (if it was `AllowOverride None`)
 
+   2. Allow mod-rewrite to redirect the address by editing `/etc/apache2/apache2.conf` (this file locates at `ORACLE_HOME\Apache\Apache\conf\httpd.conf` on Windows), under the host directory of automorphic-website, change `AllowOverride All` (if it was `AllowOverride None`)
 
+## Instructions
 1. clone `automorphic-website` using `git clone https://github.com/automorphic-project/automorphic-website`
 
 2. change directories to `automorphic-website/` and initialize the submodules using `git submodule init` and `git submodule update`
