@@ -2,7 +2,7 @@
 This is a new version of the website for the [Automorphic project](http://automorphic.newark.rutgers.edu), enabling a comment system, improved tag lookup and a full-powered online view of its contents.
 
 
-## Configuration
+## Configurations
 
 Below you will find rough instructions to create a local copy of the Stacks project website on your system. Requirements:
 
@@ -37,24 +37,31 @@ Below you will find rough instructions to create a local copy of the Stacks proj
 7. change directories to `automorphic-tools` and create the database by calling `python create.py`
 
 8. back in the `base` directory execute the following commands:
+   ```bash
+    mkdir automorphic-website/database
+    chmod 0777 automorphic-website/database
+    mv automorphic-tools/automorphic.sqlite automorphic-website/database
+    chmod 0777 automorphic-website/database/automorphic.sqlite
+   ```
 
-        mkdir automorphic-website/database
-        chmod 0777 automorphic-website/database
-        mv automorphic-tools/automorphic.sqlite automorphic-website/database
-        chmod 0777 automorphic-website/database/automorphic.sqlite
-This will create a directory with the database in it with the correct permissions for the webserver. To set permissions for the cache correctly execute
-   ​     
-        mkdir automorphic-website/php/cache
-        chmod 0777 automorphic-website/php/cache
+    This will create a directory with the database in it with the correct permissions for the webserver. To set permissions for the cache correctly execute
+
+    ```bash
+    mkdir automorphic-website/php/cache
+    chmod 0777 automorphic-website/php/cache
+    ```
+
 9. change directory into automorphic-website and edit the file `config.ini` setting database = "database/automorphic.sqlite", directory = "", and project = "/path/to/base/automorphic-website/tex"
 
 10. sanity check: at this point if you point your browser to `http://localhost:8080` you should not get an error concerning the database
 
 11. get the correct styling in EpicEditor by executing
 
-        ln -s ../../../../../css/automorphic-editor.css js/EpicEditor/epiceditor/themes/editor/automorphic-editor.css
-        ln -s ../../../../../css/automorphic-preview.css js/EpicEditor/epiceditor/themes/preview/automorphic-preview.css
-from the `automorphic-website` directory
+   ```bash
+    ln -s ../../../../../css/automorphic-editor.css js/EpicEditor/epiceditor/themes/editor/automorphic-editor.css
+    ln -s ../../../../../css/automorphic-preview.css js/EpicEditor/epiceditor/themes/preview/automorphic-preview.css
+   ```
+   from the `automorphic-website` directory
 
 12. make XyJax work by editing the last line of `automorphic-website/js/XyJax/extensions/TeX/xypic.js` and replacing `MathJax.Ajax.loadComplete("[MathJax]/extensions/TeX/xypic.js");` by `MathJax.Ajax.loadComplete("/js/XyJax/extensions/TeX/xypic.js");`
 
